@@ -48,6 +48,8 @@ public class Locator1 {
 		checkboxButton4.click();
 		checkboxButton5.click();
 		checkboxButton6.click();
+		
+		driver.close();
 
 	}
 
