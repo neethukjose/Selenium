@@ -29,7 +29,8 @@ public class Keralartc {
 		if (actualUrl.equals(expectedUrl)) {
 			System.out.println("Url is matching");
 		} else {
-			System.out.println("Url is not matching");
+			System.out.println("Url is not matching");			
+			
 		}
 
 		WebElement eticket = driver.findElement(By.xpath("//a[text()='E-Ticketing']"));

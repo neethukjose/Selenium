@@ -17,6 +17,10 @@ public class Commandstest {
 	
 		driver.navigate().to("https://the-internet.herokuapp.com/checkboxes");
 		WebElement checkbox1 = driver.findElement(By.xpath("//form//input[1]"));
+		int x=checkbox1.getLocation().getX();
+		int y=checkbox1.getLocation().getY();
+		System.out.println("X value is " +x+"Y value is " +y);
+		
 		System.out.println("checkbox1" + checkbox1.isDisplayed());
 		WebElement checkbox2 = driver.findElement(By.xpath("//form//input[2]"));
 		Boolean b=checkbox1.isSelected();
